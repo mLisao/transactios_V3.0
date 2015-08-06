@@ -69,7 +69,6 @@ import com.jiangguo.transactios.util.CommonUtils;
 import com.jiangguo.transactios.util.FaceTextUtils;
 import com.jiangguo.transactios.view.ActionBar;
 import com.jiangguo.transactios.view.EmoticonsEditText;
-import com.jiangguo.transactios.view.HeaderLayout;
 import com.jiangguo.transactios.view.ActionBar.onLeftButtonClickListener;
 import com.jiangguo.transactios.view.dailog.DialogTips;
 import com.jiangguo.xlistview.XListView;

@@ -132,10 +132,9 @@
                 style="@style/Smile.TextView._Black"
                 android:layout_marginRight="20dp"
                 android:drawablePadding="10dp" />
+            
         </LinearLayout>
     </RelativeLayout>
-
-    <!-- 添加好友 -->
 
     <Button
         android:id="@+id/btn_add_friend"
@@ -147,7 +146,6 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:text="@string/add_friend"
         android:visibility="gone" />
-    <!-- 开始聊天 -->
 
     <Button
         android:id="@+id/btn_chat"
@@ -158,7 +156,6 @@
         android:layout_marginRight="@dimen/activity_vertical_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:text="@string/chat" />
-    <!-- 黑名单 -->
 
     <Button
         android:id="@+id/btn_back"

@@ -37,6 +37,7 @@ import cn.bmob.v3.listener.UpdateListener;
 import com.jiangguo.adapter.UserFriendAdapter;
 import com.jiangguo.bean.MyUser;
 import com.jiangguo.transactios.AddFriendActivity;
+import com.jiangguo.transactios.FragmentBase;
 import com.jiangguo.transactios.NearPeopleActivity;
 import com.jiangguo.transactios.NewFriendActivity;
 import com.jiangguo.transactios.R;

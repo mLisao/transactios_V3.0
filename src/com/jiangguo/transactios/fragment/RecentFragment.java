@@ -18,6 +18,7 @@ import cn.bmob.im.db.BmobDB;
 
 import com.jiangguo.adapter.MessageRecentAdapter;
 import com.jiangguo.transactios.ChatActivity;
+import com.jiangguo.transactios.FragmentBase;
 import com.jiangguo.transactios.R;
 import com.jiangguo.transactios.view.ActionBar;
 import com.jiangguo.transactios.view.ClearEditText;

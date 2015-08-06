@@ -29,7 +29,7 @@ public class ShowActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.activity_show);
+		setContentView(R.layout.vp);
 
 		Bundle mBundle = this.getIntent().getExtras();
 		mUrl = mBundle.getStringArray("url");

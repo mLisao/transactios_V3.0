@@ -14,6 +14,7 @@ import android.widget.TextView;
 import cn.bmob.im.BmobUserManager;
 
 import com.jiangguo.transactios.BlackListActivity;
+import com.jiangguo.transactios.FragmentBase;
 import com.jiangguo.transactios.LoginActivity;
 import com.jiangguo.transactios.R;
 import com.jiangguo.transactios.SetMyInfoActivity;
