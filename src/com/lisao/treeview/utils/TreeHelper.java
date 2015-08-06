@@ -15,25 +15,31 @@ public class TreeHelper {
 	// 将用户数据转化为树形数据
 	public static <T> List<Node> convertDatasToNodes(List<T> datas)
 			throws IllegalArgumentException, IllegalAccessException {
+		// 创建树形数据
 		List<Node> nodes = new ArrayList<Node>();
 		Node node = null;
 		for (T t : datas) {
 			node = new Node();
+			// 通过反射拿到用户传递过来的数据属性上的注解
 			Class clazz = t.getClass();
 			Field[] fields = clazz.getDeclaredFields();
 			for (Field field : fields) {
+				// 树的ID
 				if (field.getAnnotation(TreeNodeId.class) != null) {
 					field.setAccessible(true);
 					node.setId((String) field.get(t));
 				}
+				// 父亲ID
 				if (field.getAnnotation(TreeNodePid.class) != null) {
 					field.setAccessible(true);
 					node.setPid((String) field.get(t));
 				}
+				// 显示文字
 				if (field.getAnnotation(TreeNodeLabel.class) != null) {
 					field.setAccessible(true);
 					node.setName((String) field.get(t));
 				}
+				//
 				if (field.getAnnotation(TreeNodeTag.class) != null) {
 					field.setAccessible(true);
 					node.setTags((Tags) field.get(t));
@@ -119,6 +125,7 @@ public class TreeHelper {
 
 	// 设置节点的图标
 	private static void setNodeIcon(Node n) {
+//		有孩子 并且是展开的
 		if (n.getChildren().size() > 0 && n.isExpand()) {
 			n.setIcon(R.drawable.tree_ec);
 		} else if (n.getChildren().size() > 0 && !n.isExpand()) {

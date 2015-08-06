@@ -50,7 +50,6 @@ public class CustomApplcation extends Application {
 
 	@Override
 	public void onCreate() {
-		// TODO Auto-generated method stub
 		super.onCreate();
 		// 是否开启debug模式--默认开启状态
 		BmobChat.DEBUG_MODE = true;

@@ -16,18 +16,20 @@ import com.jiangguo.transactios.SelledActivity;
 import com.jiangguo.transactios.SellingActivity;
 import com.loopj.android.image.SmartImageView;
 
+
 @SuppressWarnings("unused")
 public class MyFragment extends FragmentBase implements OnClickListener {
+
 	private MyUser user = null;
 
 	private SmartImageView imageView;
-	private TextView userName;
-	private TextView qianming;
+	private TextView userName;// 用户名
+	private TextView qianming;// 个性签名
 
-	private LinearLayout layout_id_selling;
-	private LinearLayout layout_id_selled;
-	private LinearLayout layout_id_logout;
-	private LinearLayout layout_id_collect;
+	private LinearLayout layout_id_selling;// 出售中的
+	private LinearLayout layout_id_selled;// 已出售的
+	private LinearLayout layout_id_logout;// 退出登录
+	private LinearLayout layout_id_collect;// 我的收藏
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -44,8 +46,9 @@ public class MyFragment extends FragmentBase implements OnClickListener {
 
 	// 初始化视图
 	private void initView() {
-
+		// 获取当前用户
 		user = BmobUser.getCurrentUser(getActivity(), MyUser.class);
+
 		imageView = (SmartImageView) getActivity().findViewById(
 				R.id.headPicture);
 		userName = (TextView) getActivity().findViewById(R.id.userName);
