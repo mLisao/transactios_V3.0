@@ -114,29 +114,19 @@
         </activity>
         <activity android:name="com.jiangguo.transactios.SelledActivity" >
         </activity>
-        <activity android:name="com.bmob.im.demo.ui.SplashActivity" >
-        </activity>
+        <activity android:name="com.jiangguo.transactios.LocationActivity" />
+        <activity android:name="com.jiangguo.transactios.BlackListActivity" />
+        <activity android:name="com.jiangguo.transactios.ImageBrowserActivity" />
         <activity
-            android:name="com.bmob.im.demo.ui.MainActivity"
-            android:launchMode="singleTask"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-        <activity android:name="com.bmob.im.demo.ui.LoginActivity" />
-        <activity android:name="com.bmob.im.demo.ui.LocationActivity" />
-        <activity android:name="com.bmob.im.demo.ui.BlackListActivity" />
-        <activity android:name="com.bmob.im.demo.ui.ImageBrowserActivity" />
-        <activity
-            android:name="com.bmob.im.demo.ui.AddFriendActivity"
+            android:name="com.jiangguo.transactios.AddFriendActivity"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-        <activity android:name="com.bmob.im.demo.ui.NewFriendActivity" />
-        <activity android:name="com.bmob.im.demo.ui.NearPeopleActivity" />
-        <activity android:name="com.bmob.im.demo.ui.UpdateInfoActivity" />
+        <activity android:name="com.jiangguo.transactios.NewFriendActivity" />
+        <activity android:name="com.jiangguo.transactios.NearPeopleActivity" />
+        <activity android:name="com.jiangguo.transactios.UpdateInfoActivity" />
         <activity
-            android:name="com.bmob.im.demo.ui.ChatActivity"
+            android:name="com.jiangguo.transactios.ChatActivity"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
-        <activity android:name="com.bmob.im.demo.ui.SetMyInfoActivity" />
-        <activity
-            android:name="com.bmob.im.demo.ui.RegisterActivity"
-            android:label="@string/app_name" />
+        <activity android:name="com.jiangguo.transactios.SetMyInfoActivity" />
 
         <!-- BMOB推送服务 -->
         <!-- IM聊天所使用的推送 -->

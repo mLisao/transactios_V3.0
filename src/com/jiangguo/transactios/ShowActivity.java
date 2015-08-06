@@ -1,5 +1,7 @@
 package com.jiangguo.transactios;
 
+import com.jiangguo.transactios.view.ZoomImageView;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
@@ -27,7 +29,7 @@ public class ShowActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.vp);
+		setContentView(R.layout.activity_show);
 
 		Bundle mBundle = this.getIntent().getExtras();
 		mUrl = mBundle.getStringArray("url");

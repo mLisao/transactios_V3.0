@@ -24,7 +24,6 @@ import cn.bmob.v3.BmobQuery.CachePolicy;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.FindListener;
 
-import com.bmob.im.demo.ui.SetMyInfoActivity;
 import com.jiangguo.adapter.ListViewAdapter;
 import com.jiangguo.adapter.ListViewAdapter.HeadOnClick;
 import com.jiangguo.adapter.TreeViewAdapter;
@@ -34,6 +33,7 @@ import com.jiangguo.bean.Tags;
 import com.jiangguo.bean.TreeTag;
 import com.jiangguo.transactios.DetailActivity;
 import com.jiangguo.transactios.R;
+import com.jiangguo.transactios.SetMyInfoActivity;
 import com.jiangguo.transactios.view.ActionBar;
 import com.jiangguo.transactios.view.ActionBar.onLeftButtonClickListener;
 import com.jiangguo.transactios.view.ActionBar.onRightButtonClickListener;

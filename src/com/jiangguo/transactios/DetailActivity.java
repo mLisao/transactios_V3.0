@@ -29,7 +29,6 @@ import cn.bmob.v3.datatype.BmobRelation;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.SaveListener;
 
-import com.bmob.im.demo.ui.ChatActivity;
 import com.jiangguo.adapter.GalleryAdpter;
 import com.jiangguo.adapter.GoodsCommentAdapter;
 import com.jiangguo.adapter.base.BaseListAdapter;

@@ -21,12 +21,12 @@ import cn.bmob.im.bean.BmobMsg;
 import cn.bmob.im.config.BmobConfig;
 import cn.bmob.im.inteface.DownloadListener;
 
-import com.bmob.im.demo.ui.ImageBrowserActivity;
-import com.bmob.im.demo.ui.LocationActivity;
-import com.bmob.im.demo.ui.SetMyInfoActivity;
 import com.jiangguo.adapter.base.BaseListAdapter;
 import com.jiangguo.adapter.base.ViewHolder;
+import com.jiangguo.transactios.ImageBrowserActivity;
+import com.jiangguo.transactios.LocationActivity;
 import com.jiangguo.transactios.R;
+import com.jiangguo.transactios.SetMyInfoActivity;
 import com.jiangguo.transactios.util.FaceTextUtils;
 import com.jiangguo.transactios.util.ImageLoadOptions;
 import com.jiangguo.transactios.util.TimeUtil;

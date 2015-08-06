@@ -125,7 +125,7 @@ public class TreeHelper {
 
 	// 设置节点的图标
 	private static void setNodeIcon(Node n) {
-//		有孩子 并且是展开的
+		// 有孩子 并且是展开的
 		if (n.getChildren().size() > 0 && n.isExpand()) {
 			n.setIcon(R.drawable.tree_ec);
 		} else if (n.getChildren().size() > 0 && !n.isExpand()) {

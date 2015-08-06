@@ -16,9 +16,8 @@ import cn.bmob.im.bean.BmobChatUser;
 import cn.bmob.im.bean.BmobRecent;
 import cn.bmob.im.db.BmobDB;
 
-import com.bmob.im.demo.ui.ChatActivity;
-import com.bmob.im.demo.ui.FragmentBase;
 import com.jiangguo.adapter.MessageRecentAdapter;
+import com.jiangguo.transactios.ChatActivity;
 import com.jiangguo.transactios.R;
 import com.jiangguo.transactios.view.ActionBar;
 import com.jiangguo.transactios.view.ClearEditText;

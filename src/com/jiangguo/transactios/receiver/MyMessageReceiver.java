@@ -24,8 +24,8 @@ import cn.bmob.im.util.BmobJsonUtil;
 import cn.bmob.im.util.BmobLog;
 import cn.bmob.v3.listener.FindListener;
 
-import com.bmob.im.demo.ui.NewFriendActivity;
 import com.jiangguo.transactios.MainActivity;
+import com.jiangguo.transactios.NewFriendActivity;
 import com.jiangguo.transactios.R;
 import com.jiangguo.transactios.config.CustomApplcation;
 import com.jiangguo.transactios.util.CollectionUtils;

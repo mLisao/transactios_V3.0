@@ -34,14 +34,13 @@ import cn.bmob.im.bean.BmobChatUser;
 import cn.bmob.im.db.BmobDB;
 import cn.bmob.v3.listener.UpdateListener;
 
-import com.bmob.im.demo.ui.AddFriendActivity;
-import com.bmob.im.demo.ui.FragmentBase;
-import com.bmob.im.demo.ui.NearPeopleActivity;
-import com.bmob.im.demo.ui.NewFriendActivity;
-import com.bmob.im.demo.ui.SetMyInfoActivity;
 import com.jiangguo.adapter.UserFriendAdapter;
 import com.jiangguo.bean.MyUser;
+import com.jiangguo.transactios.AddFriendActivity;
+import com.jiangguo.transactios.NearPeopleActivity;
+import com.jiangguo.transactios.NewFriendActivity;
 import com.jiangguo.transactios.R;
+import com.jiangguo.transactios.SetMyInfoActivity;
 import com.jiangguo.transactios.config.CustomApplcation;
 import com.jiangguo.transactios.util.CharacterParser;
 import com.jiangguo.transactios.util.CollectionUtils;
