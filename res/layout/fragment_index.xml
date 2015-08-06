@@ -1,0 +1,43 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#CCCCCC"
+            android:orientation="vertical" >
+
+            <com.jiangguo.transactios.view.ActionBar
+                android:id="@+id/headbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.jiangguo.transactios.view.ActionBar>
+
+            <com.jiangguo.xlistview.XListView
+                android:id="@+id/content_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none" >
+            </com.jiangguo.xlistview.XListView>
+        </LinearLayout>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/classify_menu"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="52dp"
+        android:background="#ffffff"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>

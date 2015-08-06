@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.jiangguo.transactios.view.ActionBar
+        android:id="@+id/headbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.jiangguo.transactios.view.ActionBar>
+
+    <ListView
+        android:id="@+id/pinglun"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp" >
+
+        <LinearLayout
+            android:id="@+id/chat"
+            android:layout_width="100dp"
+            android:layout_height="43dp"
+            android:layout_alignParentRight="true"
+            android:background="#FF5D31"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="私信"
+                android:textColor="#FFF"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ping"
+            android:layout_width="100dp"
+            android:layout_height="43dp"
+            android:layout_toLeftOf="@id/chat"
+            android:background="#FE873C"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评论"
+                android:textColor="#FFF"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/good_pinglun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/ping"
+            android:background="@drawable/base_edit_input"
+            android:hint="留下评价呗"
+            android:paddingLeft="8dp"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

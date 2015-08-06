@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.jiangguo.transactios.view.ActionBar
+        android:id="@+id/headbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.jiangguo.transactios.view.ActionBar>
+
+    <ListView
+        android:id="@+id/selling_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/sell_id_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg1"
+        android:text="标记卖出" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="搜索"/>
+    <!-- 如果不足以容纳  会被压缩为一个按钮 -->
+
+    <item
+        android:id="@+id/sell"
+        android:icon="@drawable/menu"
+        android:title="我要卖"/>
+    <item
+        android:id="@+id/connectus"
+        android:icon="@drawable/menu"
+        android:title="意见反馈"/>
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@drawable/menu"
+        android:title="软件说明"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/menu"
+        android:title="注销登录"/>
+
+</menu>

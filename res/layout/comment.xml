@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+
+    <com.loopj.android.image.RoundImageView
+        android:id="@+id/comment_user_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/head" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/comment_user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="丶度秒如年的的离骚"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/comment_creat_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="发表于：2015年4月18日"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/comment_reply"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_reply"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/comment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="\t\t每次看朋友圈，都好羡慕你们，你们长得那么美那么帅！ 车又那么豪华，不是露个大胸就是露个方向盘，还有那么多朋友，那么有钱，既不用学习也不用工作，还可以那么牛逼，每天睡到自然醒。每晚晃来晃去，夜夜笙歌，随随便便喝一晚酒，买一双鞋，都顶我几个月生活费。然后我只能默默的看着你们动态，时不时的冒一下泡， 假装和你们是一个圈子的，真的，，心好累…好了不说了"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

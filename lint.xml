@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility" severity="ignore" />
+    <issue id="InflateParams" severity="ignore">
+        <ignore path="src/com/jiangguo/transactios/Detail.java" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/jiangguo/transactios/Detail.java" />
+    </issue>
+</lint>

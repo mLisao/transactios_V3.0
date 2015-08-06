@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp" >
+
+    <GridView
+        android:id="@+id/gridView_show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:columnWidth="70dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"
+        android:visibility="gone" />
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_marginTop="8dp"
+        android:spacing="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="点击查看大图"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/good_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="物品标题"
+        android:textColor="#0d3a1d"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/good_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥10000.00"
+        android:textColor="#ff543d"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.loopj.android.image.RoundImageView
+            android:id="@+id/head"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/head"
+            android:src="@drawable/sex_man" />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/sex"
+            android:gravity="center"
+            android:text="丶度秒如年的离骚"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/good_createtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nickname"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/head"
+            android:text="2015-4-23"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/good_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="我是内容"
+            android:textColor="#5e5e5b"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+   
+
+</LinearLayout>
