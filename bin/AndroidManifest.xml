@@ -61,7 +61,7 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
-        android:name="com.jiangguo.transactios.config.CustomApplcation"
+        android:name=".config.CustomApplcation"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -110,23 +110,23 @@
         </activity>
         <activity android:name=".DetailActivity" >
         </activity>
-        <activity android:name="com.jiangguo.transactios.SellingActivity" >
+        <activity android:name=".SellingActivity" >
         </activity>
-        <activity android:name="com.jiangguo.transactios.SelledActivity" >
+        <activity android:name=".SelledActivity" >
         </activity>
-        <activity android:name="com.jiangguo.transactios.LocationActivity" />
-        <activity android:name="com.jiangguo.transactios.BlackListActivity" />
-        <activity android:name="com.jiangguo.transactios.ImageBrowserActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".BlackListActivity" />
+        <activity android:name=".ImageBrowserActivity" />
         <activity
             android:name="com.jiangguo.transactios.AddFriendActivity"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-        <activity android:name="com.jiangguo.transactios.NewFriendActivity" />
-        <activity android:name="com.jiangguo.transactios.NearPeopleActivity" />
-        <activity android:name="com.jiangguo.transactios.UpdateInfoActivity" />
+        <activity android:name=".NewFriendActivity" />
+        <activity android:name=".NearPeopleActivity" />
+        <activity android:name=".UpdateInfoActivity" />
         <activity
-            android:name="com.jiangguo.transactios.ChatActivity"
+            android:name=".ChatActivity"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
-        <activity android:name="com.jiangguo.transactios.SetMyInfoActivity" />
+        <activity android:name=".SetMyInfoActivity" />
 
         <!-- BMOB推送服务 -->
         <!-- IM聊天所使用的推送 -->
